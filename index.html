@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html id="1" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script type="text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+    <div class="tables">
+            <div class="history">
+
+                    <table>
+                            <tr>
+                                <tr>
+                                        <td class="hedb">
+                                                Global theme   
+                                             </td>
+                                </tr>
+                             <tr>
+                                 <td>
+                                     <p>Color 1 :</p>
+                                     <input type="color" id="myColor" value="#ff0080">
+                                 </td>
+                             </tr>
+                             <tr>
+                                    <td>
+                                        <p>Color 2 :</p>
+                                        <input type="color" id="myColor2" value="#ff0080">
+                                    </td>
+                                </tr>
+                             <td>
+                                    <button onclick="myFunction()">Change</button>
+
+                             </td>
+                             
+                             
+                             
+                
+                            </tr>
+                            
+                
+                            
+                
+                        </table>
+                </div>
+                    <div class="123">
+                            <table>
+                                    <tr>
+                                        <tr>
+                                            <td class="heading">
+                                                Calculator JS
+                                            </td>
+                                        </tr>
+                                        <td>
+                                            <input type="text" id="input" placeholder="0" readonly="readonly">
+                                            <input type="text" id="answer" readonly="readonly" style="color: green;">
+                                        </td>
+                                    </tr>
+                                    <!--buttons-->
+                                    <tr>
+                                        <td>
+                                            
+                                            <input type="button" class="btn-color" value="7" onclick="getNumber(7)">
+                                            <input type="button" class="btn-color" value="8" onclick="getNumber(8)">
+                                            <input type="button" class="btn-color" value="9" onclick="getNumber(9)">
+                                            <input type="button" class="btn-color" value="-" onclick="getOpreand('-')">
+                                            <br>
+                                            <input type="button" class="btn-color" value="4" onclick="getNumber(4)">
+                                            <input type="button" class="btn-color" value="5" onclick="getNumber(5)">
+                                            <input type="button" class="btn-color" value="6" onclick="getNumber(6)">
+                                            <input type="button" class="btn-color" value="+" onclick="getOpreand('+')">
+                                            <br>
+                                            <input type="button" class="btn-color" value="1" onclick="getNumber(1)">
+                                            <input type="button" class="btn-color" value="2" onclick="getNumber(2)">
+                                            <input type="button" class="btn-color" value="3" onclick="getNumber(3)">
+                                            <input type="button" class="btn-color" value="*" onclick="getOpreand('*')">
+                                            <br>
+                                            <input type="button" class="btn-color" value="0" onclick="getNumber(0)">
+                                            <input type="button"  value="res" onclick="clearScreen()" style="color: white;background: red;">
+                                            <input type="button"  value="=" onclick="compute()" style="color: white;background: green;">
+                                            <input type="button" class="btn-color" value="/" onclick="getOpreand('/')">
+                                        </td>
+                                    </tr>
+                            
+                                </table>
+                    </div>
+                    <div>
+                            <table>
+                                    <tr>
+                                        <tr>
+                                                <td class="hedb">
+                                                        Didget theme
+                                                     </td>
+                                        </tr>
+                                     
+                                     <tr>
+                                            <td>
+                                                <p>Color 1 :</p>
+                                                <input type="color" id="myColor3" value="#ff0080">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                               <td>
+                                                   <p>Color 2 :</p>
+                                                   <input type="color" id="myColor4" value="#ff0080">
+                                               </td>
+                                           </tr>
+                                        <td>
+                                               <button onclick="myFunction2()">Change</button>
+                
+                                        </td>
+                                     
+                        
+                                    </tr>
+                                    
+                        
+                                    
+                        
+                                </table>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>
+                                        
+
+                                </td>
+
+                            </tr>
+                                
+
+                        </table>
+
+                        
+
+
+
+                     </div>
+
+                    
+
+
+
+                    
+            
+    </div>
+
+    
+    
+</body>
+</html>
